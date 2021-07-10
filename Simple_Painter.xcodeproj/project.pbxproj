@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090BCE9C23A3E4BF00241398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090BCE9B23A3E4BF00241398 /* Assets.xcassets */; };
 		099CD25922A2E6BF0025EEE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099CD25822A2E6BF0025EEE6 /* AppDelegate.m */; };
 		099CD25C22A2E6BF0025EEE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099CD25B22A2E6BF0025EEE6 /* ViewController.m */; };
-		099CD25F22A2E6BF0025EEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099CD25D22A2E6BF0025EEE6 /* Main.storyboard */; };
-		099CD26122A2E6C10025EEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099CD26022A2E6C10025EEE6 /* Assets.xcassets */; };
 		099CD26422A2E6C10025EEE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099CD26222A2E6C10025EEE6 /* LaunchScreen.storyboard */; };
 		099CD26722A2E6C10025EEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099CD26622A2E6C10025EEE6 /* main.m */; };
+		099CD26F22A2E7000025EEE6 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099CD26D22A2E7000025EEE6 /* MainView.m */; };
+		099CD27422A2E70B0025EEE6 /* PaintSetupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 099CD27022A2E70A0025EEE6 /* PaintSetupView.m */; };
+		099CD27522A2E70B0025EEE6 /* PointData.m in Sources */ = {isa = PBXBuildFile; fileRef = 099CD27122A2E70A0025EEE6 /* PointData.m */; };
+		099CD27922A2E8290025EEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099CD27822A2E8290025EEE6 /* Main.storyboard */; };
+		099CD27B22A2EF150025EEE6 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 099CD27A22A2EF150025EEE6 /* LaunchImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090BCE9B23A3E4BF00241398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../mlvision/shared/Assets.xcassets; sourceTree = "<group>"; };
 		099CD25422A2E6BF0025EEE6 /* Simple_Painter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple_Painter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099CD25722A2E6BF0025EEE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		099CD25822A2E6BF0025EEE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		099CD25A22A2E6BF0025EEE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		099CD25B22A2E6BF0025EEE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		099CD25E22A2E6BF0025EEE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		099CD26022A2E6C10025EEE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		099CD26322A2E6C10025EEE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		099CD26522A2E6C10025EEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099CD26622A2E6C10025EEE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		099CD26D22A2E7000025EEE6 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		099CD26E22A2E7000025EEE6 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		099CD27022A2E70A0025EEE6 /* PaintSetupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintSetupView.m; sourceTree = "<group>"; };
+		099CD27122A2E70A0025EEE6 /* PointData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointData.m; sourceTree = "<group>"; };
+		099CD27222A2E70A0025EEE6 /* PointData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointData.h; sourceTree = "<group>"; };
+		099CD27322A2E70A0025EEE6 /* PaintSetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintSetupView.h; sourceTree = "<group>"; };
+		099CD27822A2E8290025EEE6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		099CD27A22A2EF150025EEE6 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 		099CD24B22A2E6BF0025EEE6 = {
 			isa = PBXGroup;
 			children = (
+				090BCE9B23A3E4BF00241398 /* Assets.xcassets */,
 				099CD25622A2E6BF0025EEE6 /* Simple_Painter */,
 				099CD25522A2E6BF0025EEE6 /* Products */,
 			);
@@ -62,9 +74,15 @@
 				099CD25822A2E6BF0025EEE6 /* AppDelegate.m */,
 				099CD25A22A2E6BF0025EEE6 /* ViewController.h */,
 				099CD25B22A2E6BF0025EEE6 /* ViewController.m */,
-				099CD25D22A2E6BF0025EEE6 /* Main.storyboard */,
-				099CD26022A2E6C10025EEE6 /* Assets.xcassets */,
+				099CD27822A2E8290025EEE6 /* Main.storyboard */,
 				099CD26222A2E6C10025EEE6 /* LaunchScreen.storyboard */,
+				099CD26E22A2E7000025EEE6 /* MainView.h */,
+				099CD26D22A2E7000025EEE6 /* MainView.m */,
+				099CD27322A2E70A0025EEE6 /* PaintSetupView.h */,
+				099CD27022A2E70A0025EEE6 /* PaintSetupView.m */,
+				099CD27222A2E70A0025EEE6 /* PointData.h */,
+				099CD27122A2E70A0025EEE6 /* PointData.m */,
+				099CD27A22A2EF150025EEE6 /* LaunchImage.png */,
 				099CD26522A2E6C10025EEE6 /* Info.plist */,
 				099CD26622A2E6C10025EEE6 /* main.m */,
 			);
@@ -128,9 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099CD27B22A2EF150025EEE6 /* LaunchImage.png in Resources */,
+				099CD27922A2E8290025EEE6 /* Main.storyboard in Resources */,
+				090BCE9C23A3E4BF00241398 /* Assets.xcassets in Resources */,
 				099CD26422A2E6C10025EEE6 /* LaunchScreen.storyboard in Resources */,
-				099CD26122A2E6C10025EEE6 /* Assets.xcassets in Resources */,
-				099CD25F22A2E6BF0025EEE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				099CD25C22A2E6BF0025EEE6 /* ViewController.m in Sources */,
+				099CD26F22A2E7000025EEE6 /* MainView.m in Sources */,
+				099CD27522A2E70B0025EEE6 /* PointData.m in Sources */,
 				099CD26722A2E6C10025EEE6 /* main.m in Sources */,
+				099CD27422A2E70B0025EEE6 /* PaintSetupView.m in Sources */,
 				099CD25922A2E6BF0025EEE6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +172,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		099CD25D22A2E6BF0025EEE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				099CD25E22A2E6BF0025EEE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		099CD26222A2E6C10025EEE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +306,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.Simple-Painter";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.test-simple-paint";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,7 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "test.Simple-Painter";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.test-simple-paint";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
